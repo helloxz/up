@@ -1,0 +1,103 @@
+/*导航CSS的开始*/
+	#menu{
+		margin:8px 8px 0px 0px;
+		padding:4px 0px 0px 0px;
+		/*border:2px solid #000066;
+		color:#666;*/
+		height:25px;
+		width:620px;
+		/*background-color:#999999;*/
+	}
+	#menu ul{
+		list-style-type:none;
+		text-align:center;
+		display:inline;
+	}
+	#menu li{float:left;}
+	#menu li a{
+		display:block;
+		padding:2px 2px 2px 2px;
+		font-weight:bold;
+		/*margin-left:10px;*/
+		margin-right:10px;
+		margin-top:0px;
+		/*width:40px;*/
+		color:#FFFFFF;
+		border-left:2px #666666 solid;
+		border-right:2px #666666 solid;
+		text-decoration:none;
+		background-color:#33CCFF;
+		line-height:100%;
+	}
+	#menu li a:hover{color:#FFf;
+	background-color:#999999;}
+/*导航CSS的结束*/
+
+/*用来存放导航栏*/
+#top
+{
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:20px;
+	/*border:2px solid blue;*/
+	height:auto;
+	width:146px;
+}
+
+body
+{
+	background-color:#cccc99;
+	width:960px;
+	height:auto;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:40px;
+
+}
+
+#gonggao
+{
+	width:600px;
+	height:auto;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:30px;
+	border:3px double #0000cc;
+	padding:20px;
+	line-height:22px;
+}
+
+#up
+{
+	width:600px;
+	height:auto;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:30px;
+	padding:20px;
+	line-height:22px;
+	border:1px solid #00ff66;
+}
+
+#copy
+{
+	width:660px;
+	height:auto;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:100px;
+	/*border:1px solid #00ff66;*/
+
+}
+
+#about
+{
+	width:500px;
+	height:auto;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:40px;
+	border:1px solid #00ff66;
+	line-height:22px;
+	padding:24px;
+}
